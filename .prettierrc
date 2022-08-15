@@ -1,0 +1,20 @@
+{
+  "singleQuote": true,
+  "trailingComma": "none",
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^@/assets/(.*)$",
+    "^@/components/(.*)$",
+    "^@/hooks/(.*)$",
+    "^@/providers/(.*)$",
+    "^@/services/(.*)$",
+    "^@/store/(.*)$",
+    "^@/types/(.*)$",
+    "^@/utils/(.*)$",
+    "^../(.*)",
+    "^./(.*)",
+    "^(.scss)$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
