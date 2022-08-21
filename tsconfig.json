@@ -16,12 +16,12 @@
     "incremental": true,
     "baseUrl": "./app/",
     "paths": {
-      "@/assets/*": ["assets/*"],
       "@/components/*": ["components/*"],
       "@/hooks/*": ["hooks/*"],
       "@/providers/*": ["providers/*"],
       "@/services/*": ["services/*"],
       "@/store/*": ["store/*"],
+      "@/styles/*": ["styles/*"],
       "@/types/*": ["types/*"],
       "@/utils/*": ["utils/*"]
     }
