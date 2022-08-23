@@ -1,6 +1,6 @@
-export interface IComment {
+import { IUser } from '@/types/user.interface';
+
+export interface ISubscription {
   id: number;
-  email: string;
-  createdAt: string;
-  updatedAt: string;
+  toUser: IUser;
 }
