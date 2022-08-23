@@ -1,6 +1,6 @@
 import { toastr } from 'react-redux-toastr';
 
-export const getContentType = (): object => ({
+export const getContentType = () => ({
   'Content-Type': 'application/json'
 });
 
