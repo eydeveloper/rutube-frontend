@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import React, { FC } from 'react';
 
+import Menu from '@/components/layout/sidebar/menu/Menu';
+import { menuData } from '@/components/layout/sidebar/menu/menu.data';
+
 import styles from './Sidebar.module.scss';
-import Menu from './menu/Menu';
-import { menuData } from './menu/menu.data';
 
 const Sidebar: FC = () => {
   return (
@@ -12,7 +13,7 @@ const Sidebar: FC = () => {
         <a className={styles.logo}>RuTube</a>
       </Link>
 
-      <Menu title='Меню' items={menuData}></Menu>
+      <Menu title='Меню' items={menuData} />
 
       <div className={styles.copyright}>© 2022, RuTube</div>
     </aside>

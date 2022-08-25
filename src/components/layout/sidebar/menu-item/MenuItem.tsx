@@ -3,10 +3,11 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { FC } from 'react';
 
-import { useAuth } from '../../../../hooks/useAuth';
+import { IMenuItem } from '@/components/layout/sidebar/menu-item/menu-item.interface';
+
+import { useAuth } from '@/hooks/useAuth';
 
 import styles from './MenuItem.module.scss';
-import { IMenuItem } from './menu-item.interface';
 
 const MenuItem: FC<{ item: IMenuItem }> = ({ item }) => {
   const { user } = useAuth();

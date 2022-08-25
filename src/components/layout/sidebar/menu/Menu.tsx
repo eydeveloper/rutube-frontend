@@ -1,10 +1,10 @@
 import React, { FC } from 'react';
 
-import Line from '../../../ui/line/Line';
-import MenuItem from '../menu-item/MenuItem';
+import MenuItem from '@/components/layout/sidebar/menu-item/MenuItem';
+import { IMenu } from '@/components/layout/sidebar/menu/menu.interface';
+import Line from '@/components/ui/line/Line';
 
 import styles from './Menu.module.scss';
-import { IMenu } from './menu.interface';
 
 const Menu: FC<IMenu> = ({ title, items }) => {
   return (

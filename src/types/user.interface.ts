@@ -1,5 +1,5 @@
-import { ISubscription } from './subscription.interface';
-import { IVideo } from './video.interface';
+import { ISubscription } from '@/types/subscription.interface';
+import { IVideo } from '@/types/video.interface';
 
 export interface IUser {
   id: number;

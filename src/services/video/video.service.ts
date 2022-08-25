@@ -1,5 +1,6 @@
-import { $api } from '../../api/axios';
-import { IUser } from '../../types/user.interface';
+import { IUser } from '@/types/user.interface';
+
+import { $api } from '@/api/axios';
 
 export const VideoService = {
   async getVideos() {

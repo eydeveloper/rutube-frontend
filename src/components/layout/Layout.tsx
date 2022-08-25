@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import React, { FC, PropsWithChildren } from 'react';
 
+import Header from '@/components/layout/header/Header';
+import Sidebar from '@/components/layout/sidebar/Sidebar';
+
 import styles from './Layout.module.scss';
-import Header from './header/Header';
-import Sidebar from './sidebar/Sidebar';
 
 const Layout: FC<PropsWithChildren<{ title: string }>> = ({
   children,

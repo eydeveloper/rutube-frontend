@@ -1,5 +1,5 @@
-import { IUser } from './user.interface';
-import { IVideo } from './video.interface';
+import { IUser } from '@/types/user.interface';
+import { IVideo } from '@/types/video.interface';
 
 export interface IComment {
   id: number;

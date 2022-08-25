@@ -1,6 +1,6 @@
-import { $api } from '../../api/axios';
+import { IAuthData } from '@/services/auth/auth.helper';
 
-import { IAuthData } from './auth.helper';
+import { $api } from '@/api/axios';
 
 export const AuthService = {
   async login(email: string, password: string) {

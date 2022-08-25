@@ -1,4 +1,4 @@
-import { IUser } from './user.interface';
+import { IUser } from '@/types/user.interface';
 
 export interface ISubscription {
   id: number;
